@@ -27,8 +27,19 @@ input {
   background-color: #fff;
   border: 1px solid #d4dada;
   border-radius: 3px;
+  border-bottom-style: 1px;
   box-shadow: none;
+  box-sizing: content-box;
   vertical-align: bottom;
+  width: 625px;
+  line-height: 27.2px;
+  padding: 6px 10px;
+  margin: 0;
+}
+
+input:focus {
+  border: 1px solid #07682c;
+  outline: 0;
 }
 
 button {
@@ -50,6 +61,23 @@ button {
   letter-spacing: 0.025em;
   text-decoration: none;
   transition: all 0.15s ease;
+}
+
+button:active {
+  background-color: #555abf;
+  color: #e6ebf1;
+  transform: translateY(1px);
+}
+
+button:hover {
+  transform: translateY(-1px);
+  background-color: #7795f8;
+}
+
+button:focus {
+  outline-color: rgb(77, 144, 254);
+  outline-style: auto;
+  outline-width: 1px;
 }
 
 * {
