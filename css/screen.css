@@ -2,23 +2,23 @@ h1 {
   font-size: 70px;
 }
 
-.color1:hover {
+.green:hover {
   color: #98c379;
 }
 
-.color2:hover {
+.blue:hover {
   color: #56b6c2;
 }
 
-.color3:hover {
+.yellow:hover {
   color: #c6ad00;
 }
 
-.color4:hover {
+.purple:hover {
   color: #b400b9;
 }
 
-.color5:hover {
+.red:hover {
   color: #c62d48;
 }
 
@@ -75,9 +75,10 @@ button:hover {
 }
 
 button:focus {
-  outline-color: rgb(77, 144, 254);
-  outline-style: auto;
-  outline-width: 1px;
+  outline-color: none;
+  outline-style: none;
+  outline-width: 0;
+  border-style: none;
 }
 
 * {
